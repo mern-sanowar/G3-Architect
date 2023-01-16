@@ -5,6 +5,7 @@
 }
 body{
     font-family: 'Work Sans', sans-serif;
+    background-color: white;
 }
 
 
@@ -57,6 +58,7 @@ body{
     font-size: 16px;
     font-weight: 400;
     line-height: 25px;
+    color: #727272;
 }
 .button{
     background-color: #FF900E;
@@ -170,5 +172,94 @@ body{
     font-size: 45px;
     font-weight: 700;
 }
+
+/* fact area  */
+.fact-area{
+    margin-top: 50px;
+}
+.fact-title{
+    margin-bottom: 70px;
+}
+.fact-heading{
+    margin-bottom: 15px;
+}
+.fact-boxes{
+    display: flex;
+    justify-content: space-evenly;
+}
+.fact-box{
+    border:1px solid #FF900E;
+    padding:20px;
+    text-align: center;
+    width: 170px;
+    height: 170px;
+}
+.fact-box img{
+   width: 40px;
+   height: 40px;
+}
+.fact-box h2{
+    font-size: 35px;
+    color: #424242;
+}
+.fact-box h5{
+    color: #424242;
+}
+.fact-box:hover{
+    border: 5px solid green;
+    box-shadow: 5px 10px 20px #FF900E;
+}
+/* sponsor area  */
+.sponsor-area{
+    margin-top: 100px;
+}
+.sponsor-title{
+    text-align: center;
+    padding: 0 270px;
+    margin-bottom: 50px;
+    
+}
+.sponsor-heading{
+    margin-bottom: 10px;
+}
+.sponsor-image{
+    display: flex;
+    justify-content: space-between
+}
+.sponsor-image >div img{
+    width: 120px;
+    height: 30px;
+}
+
+ /* footer area  */
+ .footer{
+    margin-bottom: 50px;
+ }
+ .footer-container{
+    width: 1080px;
+    margin: 0 auto;
+    background: rgba(255, 144, 14, 0.1);
+    padding:30px 0;
+ }
+ .footer-container p{
+    text-align: center;
+ }
+ .title-feature{
+    position: relative;
+ }
+
+ .title-feature::before {
+    position: absolute;
+    content: "";
+    background-color: #FF900E;
+    height: 80px;
+    width:4px;
+    left:-12px;
+    top:10px
+ }
+
+
+
+
 
 
